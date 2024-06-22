@@ -1,0 +1,66 @@
+body{
+    background-color: #666;
+}
+.herotext{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.gridcontainer{
+    display: grid;
+    grid-template-columns:40% 40%;
+    color: white;
+    border: 10px solid black;
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+/* icons  */
+.icon1{
+    font-size: 20px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.icon2{
+    font-size: 20px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.icon3{
+    font-size: 20px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.icon4{
+    font-size: 20px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+
+}
+@media(min-width:800px){
+    p{
+        font-size: 50px;
+        line-height: 1.5;
+    }
+}
+.fa-solid {
+    font-size: 50px;
+    padding: 20px;
+}
+.fa-location-dot{
+    font-size: 50px;
+    padding: 20px;
+}
+.fa-envelope{
+    font-size: 50px;
+    padding: 20px;
+}
